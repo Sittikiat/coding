@@ -1,7 +1,6 @@
 body {
     background-color: burlywood;
     font: 100% roboto,noto sans thai;
-    margin-left: 0px;
     border: 1px solid black;
 }
 
@@ -41,6 +40,17 @@ section {
     background-color: greenyellow
 }
 
+#subContent {
+    font-size: 15px;
+}
+
+#firstChar {
+    color: red;
+    font-size: 60px;
+    float: left;
+    line-height: 50px;
+}
+
 aside {
     float: right;
     width: 216px;
@@ -52,4 +62,15 @@ footer {
     clear: both;
     border: 1px solid orangered;
     background-color: royalblue
+}
+
+img {
+    margin-top: 25px;
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+
+p {
+    line-height: 1.5;
 }

@@ -1,0 +1,43 @@
+body {
+    font: 100% roboto,noto sans thai;
+}
+
+#container {
+    background-color: white;
+    width: 720px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+header,nav,aside {
+   visibility: hidden;
+   width: 0px;
+   height: 0px;
+}
+
+#subContent {
+    font-size: 15px;
+}
+
+#firstChar {
+    color: red;
+    font-size: 60px;
+    float: left;
+    line-height: 50px;
+}
+
+
+footer {
+    clear: both;
+}
+
+img {
+    margin-top: 25px;
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+
+p {
+    line-height: 1.5;
+}
