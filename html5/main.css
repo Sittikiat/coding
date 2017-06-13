@@ -1,0 +1,55 @@
+body {
+    background-color: burlywood;
+    font: 100% roboto,noto sans thai;
+    margin-left: 0px;
+    border: 1px solid black;
+}
+
+#container {
+    background-color: white;
+    width: 720px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+header {
+    border: 1px solid blue;
+    background-color: skyblue;
+    padding-left: 10px; 
+}
+
+nav {
+    border: 1px solid red;
+    background-color: pink;
+}
+
+nav ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    padding: 20px;
+}
+
+section {
+    float: left;
+    width: 500px;
+    border: 1px solid green;
+    background-color: greenyellow
+}
+
+aside {
+    float: right;
+    width: 216px;
+    border: 1px solid orangered;
+    background-color: orange
+}
+
+footer {
+    clear: both;
+    border: 1px solid orangered;
+    background-color: royalblue
+}
