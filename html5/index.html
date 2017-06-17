@@ -10,11 +10,19 @@
     <meta name="robots" content="all" />
     <!--<meta http-equiv="refresh" content="1;url=index.html" />-->
     <link rel="stylesheet" href="./main.css" />
+    <script type="text/javascript">
+        function mouseIn(objEm) {
+            objEm.style.color="blue";
+        }
+        function mouseOut(objEm) {
+            objEm.style.color="black";
+        }
+    </script>
 </head>
 <body>
     <div id="container">
         <header>
-            <h1>Welcome to sittikiat website</h1>
+            <h1 onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">Welcome to sittikiat website</h1>
         </header>
         <nav>
             <ul>
