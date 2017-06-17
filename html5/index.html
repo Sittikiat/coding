@@ -1,49 +1,48 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-    <title>html5</title>
+    <title>Mysterious Skin</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="./main.css" media="screen">
-    <link rel="stylesheet" href="./mainprint.css" media="print">
+    <link rel="stylesheet" type="text/stylesheet" href="./main.css" media="screen">
+    <link rel="stylesheet" type="text/stylesheet" href="./mainprint.css" media="print">
     <meta charset="utf-8" />
     <meta name="keywords" content="html5,สอน html,html เยื้องต้น,เรียน html" />
     <meta name="description" content="สอนการเขียนโปรแกรมพื้นฐาน ด้วยภาษา html5" />
     <meta name="author" content="sittikiat" />
     <meta name="copyright" content="Copyright 2016 sittikiat">
     <meta name="robots" content="all" />
+    <script src="./main.js" type="text/javascript"></script>
     <!--<meta http-equiv="refresh" content="1;url=index.html" />-->
     <link rel="stylesheet" href="./main.css" />
-    <script type="text/javascript">
-        function mouseIn(objEm) {
-            objEm.style.color="blue";
-        }
-        function mouseOut(objEm) {
-            objEm.style.color="black";
-        }
-    </script>
 </head>
 <body>
+    <div id="overlay"></div>
+    <div id="specialBox">
+        <button onclick="toggleOverlay(this)">X</button>
+        <span id="specialSpan"></span>
+        <img id="specialImage" src="" width="500px" height="500px" />
+    </div>
     <div id="container">
         <header>
-            <h1 onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">Welcome to sittikiat website</h1>
+            <h1 onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">Mysterious Skin</h1>
         </header>
         <nav>
             <ul>
-                <li>CODING</li>
-                <li>WEBSITE</li>
-                <li>MOBILE</li>
+                <li>Overview</li>
+                <li>Picture</li>
+                <li>About</li>
             </ul>
         </nav>
         <section>
             <article>
                 <header>
-                    <h3>HTML5</h3>
-                    <hr>
+                    <h3>Detail</h3>
+                    <hr />
                     <p id="subContent">From Wikipedia, the free encyclopedia</p>
                 </header>
-                <img src="./image/logo_html.png" alt="">
+                <img id="img-logo" src="./image/logo.jpg" />
                 <p>
-                    <b><span id="firstChar">H</span>TML</b><sup>[a]</sup> is a <a href="https://en.wikipedia.org/wiki/Markup_language" title="Markup Language">markup language</a> used for structuring and presenting content on the World Wide Web. 
+                    <b><span id="firstChar">M</span>ysterious</b>Skin<sup>[a]</sup> is a <a href="https://en.wikipedia.org/wiki/Markup_language" title="Markup Language">markup language</a> used for structuring and presenting content on the World Wide Web. 
                     It is the fifth and current version of the HTML standard.It was published in October 2014 by the 
                     World Wide Web Consortium (W3C)<sub>[2][4]</sub> to improve the language with support for the latest multimedia,
                     while keeping it both easily readable by humans and consistently understood by computers and devices 
@@ -52,11 +51,30 @@
                 </p>
             </article>
             <article>
-                <header>video</header>
+                <header>
+                    <h3>Video</h3>
+                    <hr />
+                </header>
                 <video width="500px" controls="controls" poster="./image/telechargement-2-810x510-1.jpeg">
                     <source src="./video/Mysterious Skin - Official Trailer.mp4" />
                     <source src="./video/Mysterious Skin - Official Trailer.webm" />
                 </video>
+            </article>
+            <article>
+                <header>
+                    <h3>Image</h3>
+                    <hr />
+                </header>
+                <img onclick="toggleOverlay(this)" class="img-small" src="./image/01.jpg" alt="">
+                <img class="img-small" src="./image/02.jpg" alt="">
+                <img class="img-small" src="./image/03.jpg" alt="">
+                <img class="img-small" src="./image/04.jpg" alt="">
+                <img class="img-small" src="./image/05.png" alt="">
+                <img class="img-small" src="./image/06.png" alt="">
+                <img class="img-small" src="./image/07.jpg" alt="">
+                <img class="img-small" src="./image/08.jpg" alt="">
+                <img class="img-small" src="./image/09.jpg" alt="">
+                <img class="img-small" src="./image/10.jpg" alt="">
             </article>
         </section>
         <aside>
