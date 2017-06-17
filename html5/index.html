@@ -5,11 +5,27 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="./main.css" media="screen">
     <link rel="stylesheet" href="./mainprint.css" media="print">
+    <meta charset="utf-8" />
+    <meta name="keywords" content="html5,สอน html,html เยื้องต้น,เรียน html" />
+    <meta name="description" content="สอนการเขียนโปรแกรมพื้นฐาน ด้วยภาษา html5" />
+    <meta name="author" content="sittikiat" />
+    <meta name="copyright" content="Copyright 2016 sittikiat">
+    <meta name="robots" content="all" />
+    <!--<meta http-equiv="refresh" content="1;url=index.html" />-->
+    <link rel="stylesheet" href="./main.css" />
+    <script type="text/javascript">
+        function mouseIn(objEm) {
+            objEm.style.color="blue";
+        }
+        function mouseOut(objEm) {
+            objEm.style.color="black";
+        }
+    </script>
 </head>
 <body>
     <div id="container">
         <header>
-            <h1>Welcome to sittikiat website</h1>
+            <h1 onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">Welcome to sittikiat website</h1>
         </header>
         <nav>
             <ul>
@@ -35,13 +51,23 @@
                     1 and DOM Level 2 HTML.[5]
                 </p>
             </article>
-           
+            <article>
+                <header>video</header>
+                <video width="500px" controls="controls" poster="./image/telechargement-2-810x510-1.jpeg">
+                    <source src="./video/Mysterious Skin - Official Trailer.mp4" />
+                    <source src="./video/Mysterious Skin - Official Trailer.webm" />
+                </video>
+            </article>
         </section>
         <aside>
             <h4>News</h4>
         </aside>
         <footer>
             Copyright sittikiat.org
+            <script type="text/javascript">
+                var dt = new Date();
+                document.write(dt);
+            </script>
         </footer>
     </div>
 
