@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: roboto-regular;
+}
+
+#container {
+    width: 1080px;
+    margin: 0px auto 0px auto;
+    background-color: aliceblue;
+}
+#font-header {
+    font-size: 500%;
+}
+
+header {
+    text-align: center;
+    padding: 5px 0px 10px 0px;
+}
+
+nav {
+    background: antiquewhite;
+    padding: 10px 0px 10px 0px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0px 0px 0px 10px;
+}
+
+section {
+    display: block;
+    float: left;
+    width: 80%;
+}
+
+article {
+    padding: 10px 10px 10px 10px;
+    /*font-family: noto-regular;*/
+    line-height: 30px;
+}
+
+aside {
+    display: block;
+    float: right;
+    width: 20%;
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    background: antiquewhite;
+    text-align: center;
+}
+
+/*@font-face {
+    font-family: noto-regular;
+    src: url("../font/thai/NotoSansThai-Regular.woff");
+}
+
+@font-face {
+    font-family: noto-bold;
+    src: url("../font/thai/NotoSansThai-Bold.woff");
+}*/
+
+@font-face {
+    font-family: roboto-regular;
+    src: url("../font/eng/Roboto-Regular.woff");
+}
+
+@media screen and (max-width:720px) {
+    #container, section, aside, footer, p {width: 100%;}
+}
+@media screen and (max-width: 480px) {
+    #container, section, aside, footer, p {width: 100%;}
+    nav ul li { display: block; padding: 0px 0px 0px 10px;}
+    #div2 { display: none; }
+}

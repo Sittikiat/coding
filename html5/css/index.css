@@ -54,8 +54,10 @@ section {
 aside {
     float: right;
     width: 216px;
+    text-align: center;
+    display: block;
     border: 1px solid orangered;
-    background-color: orange
+    background-color: orange;
 }
 
 footer {
@@ -80,4 +82,8 @@ footer {
 
 p {
     line-height: 1.5;
+}
+
+@media screen and (max-width:720px) {
+    #container, section, aside, footer, p {width: 100%;}
 }
