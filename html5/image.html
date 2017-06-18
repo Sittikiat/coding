@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="keywords" content="html,html5" />
+    <meta name="description" content="เว็บคนรักหนัง" />
+    <meta name="robots" name="all" />
+    <meta name="author" name="sittikiat.org" />
+    <meta name="copyright" name="Copyright @ 2015" />
+    <title>Image</title>
+    <link rel="stylesheet" type="text/css" href="./css/index.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="./css/image.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="./css/indexprint.css" media="print" />
+    <script type="text/javascript" src="./js/image.js"></script>
+
+
+</head>
+<body>
+    <!--///overlay////-->
+    <div id="overlay"></div>
+    <div id="specialBox">
+        <button onclick="toggleOverlay(this)">X</button>
+        <span id="specialSpan"></span>
+        <img id="specialImg" src="" width="1200px" height="674px"></img>
+    </div>
+    <!--///overlay////-->
+
+    <div id="container">
+        <header>
+            <h1>Mysterious Skin</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Overview</a></li>
+                <li><a href="./image.html">Image</a></li>
+                <li><a href="./movie.html">Movie</a></li>
+            </ul>
+        </nav>
+        <section>
+            <article>
+                <header>
+                    <h3>Image</h3>
+                    <hr />
+                </header>
+                <img onclick="toggleOverlay(this)" class="img-small" src="./image/01.jpg" alt="">
+                <img onclick="toggleOverlay(this)" class="img-small" src="./image/02.jpg" alt="">
+                <img onclick="toggleOverlay(this)" class="img-small" src="./image/03.jpg" alt="">
+                <img onclick="toggleOverlay(this)" class="img-small" src="./image/04.jpg" alt="">
+                <img onclick="toggleOverlay(this)" class="img-small" src="./image/05.png" alt="">
+                <img onclick="toggleOverlay(this)" class="img-small" src="./image/06.png" alt="">
+                <img onclick="toggleOverlay(this)" class="img-small" src="./image/07.jpg" alt="">
+                <img onclick="toggleOverlay(this)" class="img-small" src="./image/08.jpg" alt="">
+                <img onclick="toggleOverlay(this)" class="img-small" src="./image/09.jpg" alt="">
+                <img onclick="toggleOverlay(this)" class="img-small" src="./image/10.jpg" alt="">
+            </article>
+        </section>
+        <aside>
+            <h4>News</h4>
+        </aside>
+        <footer>
+            Copyright sittikiat.org
+            <script type="text/javascript">
+                var dt = new Date();
+                document.write(dt);
+            </script>
+        </footer>
+    </div>
+</body>
+</html>
